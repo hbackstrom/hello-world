@@ -1,0 +1,78 @@
+-Dashboard is slow to load
+-Can't see map on T&E Stratification tab
+	-Doesn't load when you filter on something in another worksheet
+-Dashboard cut off on Risk Ranking tab
+-Text Analytics dashboard not fully loading
+-White space at the bottom of all of the tabs except T&E Stratification
+-Autopopulation on feedback form - where is the "get data" option?
+-Getting error on Findings page
+-Getting error trying to navigate to page in general in Chrome - Microsoft "Sorry but we're having trouble signing you in"
+-A completed finding is showing up in "my open findings" view
+-When you a
+-In audit trail:
+	-What is this?
+	1a. Report Entry ID updated from [ ["19619530","18582815" ] ] to [ ["18582815","19619530" ] ]. 
+-White space around risk profile dash
+-When clicking on Data tab in the Finding, immediately got logged out
+-Remove Fields from Details tab (tbd)
+-Tried to export data to Excel, getting an error when trying to click on any tabs now
+
+
+-When I create a case, I get an error on the "My Findings" tab
+
+
+
+-Cannot see map on T&E Stratification
+-Map does not show any data when you filter on an employee
+-Can only see Text Detail on Text Analytics tab
+-When assigning Report IDs - "assinged" spelled wrong
+-Capitalize "ID"
+-After getting through the whole workflow, if I try to go back home I receive an error
+
+
+
+T&E Dashboard
+-Apply button does not work for employee name filter on any tab
+-Cutoff on Risk Ranking tab
+-Add apply button to attendee company and name filters (me)
+Assigning Findings
+-Discussed getting rid of prefix or changing to something like "TE" - currently the prefix is "CAN" - NOT FIXED
+Risk Profile
+-When assigning Report IDs - "assinged" spelled wrong - NOT FIXED
+-Capitalize "ID" - NOT FIXED
+-Can we add $ to Reimbursement Amount on Risk Profile tab "Get Transaction Data"? - NOT FIXED
+Data Tab
+-When I manually try to export to excel, getting an error
+Associated Findings
+-Employee Name is not populated
+Update Status
+-Are we keeping this now that submitting the questionnaire closes the case?
+Notifications
+-Are we going to implement email notifications?
+
+NEXT UPDATES
+-Add apply button to attendee company and name filters (me)
+-Filter out keyword parsed=Null on term frequency
+
+-Change word cloud coloring
+-Move risk score column to beginning
+
+NEXT UPDATES (DEV TEAM)
+-Still can't see Attendee Name in Risk Profile dash
+-Put Attendee Name filter next to Attendee Company filter
+-We want the date format in Risk Profile dash to remain like "Month Day, Year" (eg. August 9, 2019) - please match this formatting in Get Transaction Data view
+-Add the RPT_ENTR_VNDR_DESC field that is in the Risk Profile dashboard to the Get Transaction Data view.
+-The Max Risk Score field can simply be called "Risk Score" because the Risk Profile and Data tab views are all on the transaction level
+-Please include the Risk Score field in Get Transaction Data view as well, sorting Report Entry ID on Risk Score field descending
+-On Data tab, Max Risk Score can also be renamed to Risk Score. Please make sure this field is populated and sort Report Entry ID on Risk Score field descending.
+-On Data tab, include Risk Score field as well, sort Report Entry ID on Risk Score field descending. We want to create consistency for the investigators on all views.
+-Change Vendor Name filter to Vendor Description (using RPT_ENTR_VNDR_DESC field) in Risk Profile tab
+-Remove buttons circled below
+-Fix column headings overlapping in Details tab within the Data tab:
+-Tableau performance improval, slow load times
+
+FOR ME
+-Rename Details tab in dashboard to Summary?
+-Change Max Risk Score to Risk Score in Details tab/slash other changes that were made to Risk Profile tab
+
+
